@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stefan Web Archive</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --card-border: #334155;
+      --text-main: #f8fafc;
+      --text-sub: #94a3b8;
+      --accent: #38bdf8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1rem;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 700;
+      letter-spacing: -0.025em;
+      margin-bottom: 0.5rem;
+    }
+    p.subtitle {
+      color: var(--text-sub);
+      font-size: 1.1rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      max-width: 960px;
+      width: 100%;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 1.75rem;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: var(--accent);
+      box-shadow: 0 10px 25px -5px rgba(56, 189, 248, 0.2);
+    }
+    .card-title {
+      font-size: 1.35rem;
+      font-weight: 600;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+    }
+    .card-url {
+      font-size: 0.85rem;
+      color: var(--text-sub);
+      margin-bottom: 1rem;
+      word-break: break-all;
+    }
+    .card-desc {
+      color: #cbd5e1;
+      font-size: 0.95rem;
+      line-height: 1.5;
+      margin-bottom: 1.5rem;
+    }
+    .card-cta {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--accent);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+    footer {
+      margin-top: 3rem;
+      color: var(--text-sub);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Web Archive Collection</h1>
+    <p class="subtitle">Complete, standalone offline backups</p>
+  </header>
+
+  <div class="grid">
+    <a href="hotelriho/index.html" class="card">
+      <div>
+        <h2 class="card-title">Hotel Riho</h2>
+        <div class="card-url">www.hotelriho.com</div>
+        <p class="card-desc">Welcome to Ushguli, Svaneti, Georgia. Full multi-page archive including ethnographic museum and photo galleries.</p>
+      </div>
+      <div class="card-cta">Open Archive &rarr;</div>
+    </a>
+
+    <a href="villatiflis/index.html" class="card">
+      <div>
+        <h2 class="card-title">Villa Tiflis</h2>
+        <div class="card-url">www.villatiflis.com</div>
+        <p class="card-desc">Bed & Breakfast and guest house in Tbilisi, Georgia. Full offline archive with room galleries and price lists.</p>
+      </div>
+      <div class="card-cta">Open Archive &rarr;</div>
+    </a>
+
+    <a href="saftladen-film/index.html" class="card">
+      <div>
+        <h2 class="card-title">Saftladen Film</h2>
+        <div class="card-url">www.saftladen-film.de</div>
+        <p class="card-desc">Documentary film production company. Complete archive including synopsis, team, original work, and production files.</p>
+      </div>
+      <div class="card-cta">Open Archive &rarr;</div>
+    </a>
+  </div>
+
+  <footer>
+    Archived with local assets & relative navigation
+  </footer>
+</body>
+</html>

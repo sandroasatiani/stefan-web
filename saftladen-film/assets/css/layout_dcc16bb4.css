@@ -1,0 +1,299 @@
+
+body 
+{
+	margin: 0;
+	padding:0
+;
+}
+
+
+.diyw .diyweb{padding: 10px 0 80px;}
+
+.diyw .altcolor {
+	background-color: #abaaaa;
+}
+
+
+.diyw div#header {
+	background-image: url("../css_res/1009-header_gradient_441d940c.png");
+	background-repeat: repeat-x;
+	margin-top: 10px;
+	margin-bottom: 11px;
+	zoom: 1;
+}
+
+* html .diyw div#header {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="https://www.saftladen-film.de/s/img/1009-header_gradient.png", enabled='true', sizingMethod='scale');
+	background-image: none;
+}
+
+.diyw div#header_inner {
+	width: 610px;
+	margin: 0 auto;
+	padding-left: 270px;
+}
+
+.diyw div#header_innermost {
+	border-style: solid;
+	border-color: #ffffff;
+	border-width: 0 10px;
+}
+
+.diyw div#emotion-header {
+	position: relative;
+}
+
+.diyw strong#emotion-header-title {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+.diyw div#container {
+	width: 880px;
+	margin: 0 auto;
+}
+
+
+.diyw div#wrapper {
+	width: 600px;
+	float: right;
+	background: url("../css_res/1009-wrapper_bg_top_0daf44c3.png") no-repeat;
+	margin: -2px -2px 0;
+	padding: 2px 2px 0;
+	position: relative;
+	zoom: 1;
+}
+
+.diyw div#wrapper_inner {
+	background: url("../css_res/1009-wrapper_bg_bottom_6bf3ba00.png") no-repeat 0 100%;
+	margin: 0 -2px -3px;
+	padding: 0 2px 3px;
+	position: relative;
+	zoom: 1;
+}
+
+.diyw div#wrapper_innermost {
+	background: url("../css_res/1009-wrapper_bg_47f52114.png") repeat-y;
+	margin: 0 -2px;
+	padding: 0 2px;
+	position: relative;
+	zoom: 1;
+}
+
+* html .diyw div#wrapper {
+	background-image: url("../css_res/1009-wrapper_bg_top_cdd0f829.gif");
+}
+
+* html .diyw div#wrapper_inner {
+	background-image: none;
+}
+
+* html .diyw div#wrapper_innermost {
+	background-image: url("../css_res/1009-wrapper_bg_e621dfd3.gif");
+}
+
+
+.diyw div#content {
+	padding: 20px 90px 0 80px;
+	min-height: 550px;
+}
+
+
+.diyw div#sidebar {
+	width: 280px;
+	float: left;
+}
+
+
+.diyw div#navigation, .diyw div#sidebar_content {
+	margin: -2px 0 10px;
+	padding: 2px 0 0;
+	background: url("../css_res/1009-sidebar_bg_top_4b34980b.png") no-repeat 8px 0;
+	position: relative;
+	zoom: 1;
+}
+
+.diyw div#navigation_inner, .diyw div#sidebar_content_inner {
+	background: url("../css_res/1009-sidebar_bg_bottom_d0ab7e7a.png") no-repeat 8px 100%;
+	margin: 0 0 -4px;
+	padding: 0 0 4px;
+	position: relative;
+	zoom: 1;
+}
+
+.diyw div#navigation_innermost, .diyw div#sidebar_content_innermost {
+	background: url("../css_res/1009-sidebar_bg_e0fa0966.png") repeat-y 8px 0;
+	padding: 10px 20px;
+	position: relative;
+	zoom: 1;
+}
+
+* html .diyw div#navigation, * html .diyw div#sidebar_content {
+	background-image: url("../css_res/1009-sidebar_bg_top_ceea0fe2.gif");
+}
+
+* html .diyw div#navigation_inner, * html .diyw div#sidebar_content_inner {
+	background-image: url("../css_res/1009-sidebar_bg_bottom_0dca0f5f.gif");
+}
+
+* html .diyw div#navigation_innermost, * html .diyw div#sidebar_content_innermost {
+	background-image: url("../css_res/1009-sidebar_bg_2ad8299d.gif");
+}
+
+.diyw ul.mainNav1 {
+	margin: 0;
+	padding: 0 0 60px;
+	list-style: none;
+}
+
+.diyw ul.mainNav1 li {
+	width: 240px;
+}
+
+.diyw ul.mainNav1 li a {
+	display: block;
+	width: 240px;
+	padding: 5px 0;
+	text-decoration: none;
+	background: url("../css_res/1009-dots_5d637083.gif") repeat-x 0 100%;
+}
+
+.diyw ul.mainNav1 li a:hover, .diyw ul.mainNav1 li a.current {
+	font-weight: bold;
+}
+
+.diyw ul.mainNav2 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.diyw ul.mainNav2 li a {
+	width: 220px;
+	padding: 5px 10px;
+}
+
+.diyw ul.mainNav3 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.diyw ul.mainNav3 li a {
+	width: 210px;
+	padding: 5px 10px 5px 20px;
+}
+
+.diyw div#jimdobox {
+	margin-bottom: 20px;
+}
+
+
+.diyw div#footer {
+	width: 590px;
+}
+
+.diyw div#footer_wrapper {
+	padding: 5px 10px;
+	background-image: url("../css_res/1009-footer_gradient_4635a60a.png");
+	background-repeat: repeat-x;
+	zoom: 1;
+}
+
+* html .diyw div#footer_wrapper {
+	
+	background-image: none;
+}
+
+.diyw br.c {
+	display: block;
+}
+
+
+.diyw div#sidebar div.modulelt {
+	position: relative;
+	z-index: 9999px;
+}
+
+
+
+body .diyw
+{
+	font: normal 11px/140% Verdana, Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+ .diyw p, .diyw table, .diyw td {
+	font: normal 11px/140% Verdana, Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+
+.diyw h1 {
+	font: bold 14px/140% Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+
+.diyw h2 {
+	font: bold 12px/140% Verdana, Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+
+
+.diyw a.trackbackUrl, 
+.diyw a.trackbackUrl:link,
+.diyw a.trackbackUrl:visited,
+.diyw a.trackbackUrl:hover,
+.diyw a.trackbackUrl:active {
+	background: #EEEEEE none repeat scroll 0% 0%;
+	border: 1px solid black;
+	color: #333333;
+	padding: 2px;
+	text-decoration: none;
+}
+
+.diyw a:link,
+.diyw a:visited {
+	text-decoration: underline; 
+	color: #DB2F2C;
+}
+
+.diyw a:active, 
+.diyw a:hover {
+	text-decoration: none; 
+	color: #DB2F2C;
+}
+
+.diyw div.hr {
+	border-bottom-style: dotted;
+	border-bottom-width: 1px; 
+	border-color: #CCCCCC;
+	height: 1px;
+}
+ 
+.diyw .altcolor,
+.diyw .altcolor p {
+	color: #000000;
+}
+
+.diyw .altcolor h1 {
+	color: #000000;
+}
+
+.diyw .altcolor h2 {
+	color: #000000;
+}
+
+.diyw .altcolor a:link,
+.diyw .altcolor a:visited {
+	color: #000000;
+}
+
+.diyw .altcolor a:active, 
+.diyw .altcolor a:hover {
+	color: #000000;
+}
+
+.diyw .altcolor div.hr {
+	border-color: #000000;
+}
